@@ -1,0 +1,92 @@
+TOKEN STREAM:
+Line	Token Type	Lexeme
+------------------------------
+1	SYMBOL		#
+1	WORD		include
+1	SYMBOL		<
+1	WORD		stdio
+1	SYMBOL		.
+1	WORD		h
+1	SYMBOL		>
+3	WORD		int
+3	WORD		main
+3	SYMBOL		(
+3	SYMBOL		)
+3	SYMBOL		{
+4	WORD		int
+4	WORD		x
+4	SYMBOL		=
+4	NUMBER		10
+4	SYMBOL		;
+5	WORD		float
+5	WORD		y
+5	SYMBOL		=
+5	NUMBER		25.5
+5	SYMBOL		;
+7	WORD		if
+7	SYMBOL		(
+7	WORD		x
+7	SYMBOL		>
+7	NUMBER		5
+7	SYMBOL		)
+7	SYMBOL		{
+8	WORD		printf
+8	SYMBOL		(
+8	STRING		"x is greater than 5"
+8	SYMBOL		)
+8	SYMBOL		;
+9	SYMBOL		}
+9	WORD		else
+9	SYMBOL		{
+10	WORD		printf
+10	SYMBOL		(
+10	STRING		"x is less than or equal to 5"
+10	SYMBOL		)
+10	SYMBOL		;
+11	SYMBOL		}
+14	WORD		while
+14	SYMBOL		(
+14	WORD		x
+14	SYMBOL		>
+14	NUMBER		0
+14	SYMBOL		)
+14	SYMBOL		{
+15	WORD		x
+15	SYMBOL		=
+15	WORD		x
+15	SYMBOL		-
+15	NUMBER		1
+15	SYMBOL		;
+16	WORD		y
+16	SYMBOL		=
+16	WORD		y
+16	SYMBOL		+
+16	NUMBER		1.5
+16	SYMBOL		;
+17	SYMBOL		}
+19	WORD		return
+19	NUMBER		0
+19	SYMBOL		;
+20	SYMBOL		}
+
+KEYWORDS FOUND:
+Line	Keyword
+------------------------------
+3	int
+4	int
+5	float
+7	if
+9	else
+14	while
+19	return
+
+SYMBOL TABLE:
+Index	Symbol		Line Declared
+------------------------------
+0	include        	1
+1	stdio          	1
+2	h              	1
+3	main           	3
+4	x              	4
+5	y              	5
+6	printf         	8

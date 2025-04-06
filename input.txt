@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    float y = 25.5;
+    
+    if (x > 5) {
+        printf("x is greater than 5");
+    } else {
+        printf("x is less than or equal to 5");
+    }
+    
+    // Loop example
+    while (x > 0) {
+        x = x - 1;
+        y = y + 1.5;
+    }
+    
+    return 0;
+}

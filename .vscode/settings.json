@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "stdio.h": "c",
+        "symboltable.h": "c",
+        "stdlib.h": "c",
+        "charmap.h": "c"
+    }
+}
